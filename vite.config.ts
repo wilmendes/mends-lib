@@ -28,7 +28,7 @@ export default defineConfig({
   plugins: [react(), dts({ rollupTypes: true })],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./lib"),
+      "lib": path.resolve(__dirname, "./lib"),
     },
   },
   css: {
